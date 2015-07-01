@@ -34,7 +34,8 @@ public class MainActivityFragment extends Fragment {
                 "Thursday - Cloudy - 100/80",
                 "Friday - Foggy - 60/30",
                 "Saturday - Rainy - 100/50",
-                "Sunday - Sunny - 60/50"
+                "Sunday - Sunny - 60/50",
+                "That's all"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
