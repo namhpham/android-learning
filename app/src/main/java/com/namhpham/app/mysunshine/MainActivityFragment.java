@@ -56,6 +56,7 @@ public class MainActivityFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
         ListView listView = (ListView) rootView.findViewById(R.id.listview_forecast);
+        new FetchWeatherTask().execute("98059", "7");
         if (adapter != null) {
             listView.setAdapter(adapter);
         }
